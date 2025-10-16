@@ -146,7 +146,7 @@ public class ShopTest {
         Computer comp = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 1999, 10);
         myShop.inventory.add(comp);
         myShop.refurbish(comp, null);
-        assertEquals("Refurbish doesn't accurately set null operating system", comp.operatingSystem, null); 
+        assertEquals("Refurbish does not accurately set null operating system", comp.operatingSystem, null); 
     }
 
     @Test 

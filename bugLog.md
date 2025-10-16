@@ -7,7 +7,7 @@ Brief description: Resale Shop - the method buy doesn't actually throw an except
 Failed unit test: test_buyException
 
 ## Bug 3
-Brief description: Resale Shop - the method buy overwrites the computer paramater that is supposed to be passed in
+Brief description: Resale Shop - the method buy overwrites the computer paramater that is supposed to be passed in 
 Failed unit test: test_buy
 
 ## Bug 4

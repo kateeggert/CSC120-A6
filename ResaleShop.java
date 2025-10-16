@@ -86,6 +86,4 @@ public class ResaleShop {
             System.out.println(e.getLocalizedMessage());
         }
     }
-
-
 }

@@ -33,4 +33,4 @@ yes 2 pt: Complies with style guidelines (missing items 1 pt each):
 
 yes 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-yes 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the tests you implemented and what they do**
+yes  1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the tests you implemented and what they do**
