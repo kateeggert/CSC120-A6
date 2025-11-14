@@ -265,4 +265,13 @@ public class ShopTest {
         assertTrue("Logically, the old computer should have a lower price", newer.price > old.price);
     }
 
+    /**
+     * Tests that the resale shop constructor creates an automatic empty inventory
+     */
+    @Test
+    public void test_constructorInventory() {
+        ResaleShop myShop = new ResaleShop();
+        assertTrue(myShop.inventory.size() == 0);
+    }
+
 }

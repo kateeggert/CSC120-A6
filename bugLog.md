@@ -27,8 +27,8 @@ Brief description: Computer - the constructor automatically makes every price eq
 Failed unit test: test_computerConstructorPrice
 
 ## Bug 8
-Brief description: Resale Shop - refurbish doesn't actually set the os to null if null is passed in
-Failed unit test: test_refurbishNullOS
+Brief description: Resale Shop - the constructor automatically creates a computer and adds it to inventory
+Failed unit test: test_constructorInventory
 
 ## Bug 9
 Brief description:  Resale Shop - refurbish doesn't set the operating system to the parameter, sets it to none
