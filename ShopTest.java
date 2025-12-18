@@ -206,7 +206,7 @@ public class ShopTest {
     }
 
     /**
-     * Makes sure that the method accurately sets a "None" operating system
+     * Makes sure that the method does not change the operating system if "None" is passed
      * @throws Exception if the computer isn't in inventory
      */
     @Test 
@@ -215,7 +215,7 @@ public class ShopTest {
         Computer comp = new Computer("2019 MacBook Pro", "Intel", 256, 16, "High Sierra", 1999, 10);
         myShop.inventory.add(comp);
         myShop.refurbish(comp, "None");
-        assertNotEquals("None", comp.operatingSystem);
+        assertEquals("High Sierra", comp.operatingSystem);
     }
 
     /**
